@@ -58,7 +58,7 @@ public function getEvents($Id_Evento = null) {
     }
 }
 
-    public function updateEvent($Id_Evento, $nombre, $descripcion, $fecha_evento, $ubicacion ) {
+    public function updateEvent($Id_Evento, $nombre, $descripcion, $fecha_evento, $ubicacion  ) {
         if(empty($Id_Evento) || empty($nombre) || empty($descripcion) || empty($fecha_evento) || empty($ubicacion)) {
             return "campos_vacios";
         } else {
